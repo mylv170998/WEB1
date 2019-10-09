@@ -1,0 +1,20 @@
+p, h1 , h2 {color: rgb(219, 24, 24)}
+.mauxanh{
+    color: blue;
+    font-size: 500%
+}   
+#cochu1{
+    font-weight: bolder;
+    font-size: 300%;
+    color: red;
+}
+#abc{
+    font-weight: bold;
+    font-size: 1cm;
+    color: yellow;
+}
+body {
+    background: url(https://img.thuthuatphanmem.vn/uploads/2018/10/04/hinh-anh-lang-que-viet-nam-binh-di_110524192.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
