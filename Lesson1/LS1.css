@@ -1,0 +1,24 @@
+.center{
+    display :block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+body{
+    background: url(https://1.bp.blogspot.com/-5oY7Rb6AGhU/WXYAmZMOGkI/AAAAAAAAo7k/FVNFa9JEbzYoct4dOdj7q_jp7ATwJja_ACLcBGAs/s1600/effc66473c56d15ca34c9a9edf41a6dd.jpg);
+
+    background-repeat: no-repeat;
+}
+#font1{
+    font-weight: bolder;
+    font-size: 500%;
+    color: blanchedalmond;
+}
+#font2{
+    font-size: 150%;
+    color: cornsilk;
+}
+#font3{
+    font-size: 300%;
+    color: yellow;
+}
