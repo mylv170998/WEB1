@@ -1,0 +1,28 @@
+
+<form action="login" method="GET">
+<table width="600" height="300" border="2"cellpadding="5" align="center">
+    <tr>
+        <th colspan="2" style="color: red;">Đăng Nhập</th>
+    </tr>
+    <tr>
+        <td>Tài Khoản:</td>
+        <td><input type="text" placeholder="Nhập tên đăng nhập" size="50" name="username"value=""></td>
+    </tr>
+    <td>Mật Khẩu:</td>
+     <td><input type="password"placeholder="Nhập mật khẩu" size="50"name="password" value=""></td>
+     <tr>
+         <td colspan="2" align="center">
+             <button type="submit" {{checkLogin}}>ĐĂNG NHẬP</button>
+         </td>
+     </tr>
+</table>
+</form>
+<script>
+    function checkLogin(){
+        var username =document.getElementsByName("username").value
+        var password=document.getElementsByName("password").value
+        if (username==''){ alert('bạn chưa nhập tên đăng nhập')}
+    }
+      else if (password==''){alert('bạn chưa nhập mật khẩu')}
+      else  {alert('dang nhap thanh cong')}
+</script>
